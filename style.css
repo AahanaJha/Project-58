@@ -20,10 +20,12 @@ h1{
   list-style:none;
   font-family:cursive;
   float:right;
+    position: fixed;
   top:10px
    right:30px
-    cursor;pointer;
+    cursor:pointer;
   color:black;
+    
 }
 #basketball{
     font-size: 20px;
@@ -38,3 +40,15 @@ line{
     font-family: 'Courgette',cursive;
 
 }
+.article:hover{
+    color: aquamarine;
+}
+html{
+    scroll-behavior: smooth;
+}
+#bio{
+padding:50px;
+    text-align: center;
+
+}
+
